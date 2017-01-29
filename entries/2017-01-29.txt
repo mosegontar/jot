@@ -1,0 +1,11 @@
+Just wrote a bash script that gets current date and launches vim
+with a take named $CURRDATE.txt. The simplest of scripts, but nice
+because if the user doesn't save the launched script then no entry
+in entries/ will exist. But vim will launch an existing file if it
+exists. So this eliminates, very advantangeously, the need to explicitly
+*check* that a file exists. We want Vim to launch with named file regardless
+of whether or it exsits, but we don't want the file to be created unless
+there is actual content saved.
+
+
+
