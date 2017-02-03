@@ -1,18 +1,4 @@
-class Directory
-	attr_accessor :cwd
-	def initialize
-		self.cwd = Dir.getwd
-	end
-        def get_entries
-		entry_dir = self.cwd + '/entries/'
-		Dir.entries(entry_dir)
-	end
-end
-
-# def create_entry(dir, entry)
-# File.open(dir+'/entries/'+entry, "w") {|f| f.write("some_text")}
-# puts "entries/%s created" % [entry]
-# end
+#!/usr/bin/env ruby
 
 def manage_entries(date)
 	todays_entry = date + '.txt'
