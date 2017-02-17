@@ -2,7 +2,9 @@
 An incredibly tiny command line program for writing notes and journal entries. 
 
 Whenever you would like to make a note, just type `jot`. By default, jot will launch your preferred text editor with a file named for the current date. 
+
 If an argument is supplied, the file will take the name of the argument. (E.g. `jot jutaliltest.txt` will open entries/jutaliltest.txt).
+
 If such a file already exists, the existing file will launch. So with a quick `jot` in the evening you can finish that thought you left
 hanging in the morning.
 
