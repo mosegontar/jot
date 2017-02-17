@@ -7,8 +7,10 @@ hanging in the morning.
 
 ## Instrux
 ### installation:
-Clone the repository and then copy jot.rb to /usr/local/bin/jot.
+Clone the repository and then copy jot.rb to a directory on your PATH.
 
-Set the `EDITOR` variable to your preferred editor and set the `ENTRY_DIR` to the directory where you would like to store your notes.
+### set up:
+
+Set the `EDITOR` variable to your preferred editor and set the `ENTRY_DIR` to the directory where you would like to store your notes. Be sure that your ENTRY_DIR is already created, otherwise you will receive an error.
 
 By default, `EDITOR` is set to 'vim' and `ENTRY_DIR` is set to the hidden directory ~/.jot/entries.
