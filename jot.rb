@@ -4,7 +4,7 @@ ENTRY_DIR = "~/.jot/entries"
 EDITOR = 'vim'
 
 def manage_entries(date)
-	todays_entry = date + '.txt'
+    todays_entry = date + '.txt'
     launch_editor( todays_entry)
 end
 
@@ -14,5 +14,5 @@ end
 
 if __FILE__ == $0
     today = Time.now.strftime("%Y-%m-%d")
-	manage_entries today	
+    manage_entries today
 end
