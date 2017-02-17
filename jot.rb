@@ -13,6 +13,9 @@ def launch_editor(entry)
 end
 
 if __FILE__ == $0
-    today = Time.now.strftime("%Y-%m-%d")
-    manage_entries today
+    title = ARGV[0]
+    unless title
+        title = Time.now.strftime("%Y-%m-%d")
+    end
+    manage_entries title
 end
