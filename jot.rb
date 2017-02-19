@@ -3,8 +3,8 @@
 ENTRY_DIR = "~/.jot/entries"
 EDITOR = 'vim'
 
-def manage_entries(date)
-    todays_entry = date + '.txt'
+def manage_entries(title)
+    todays_entry = title + '.txt'
     launch_editor( todays_entry)
 end
 
